@@ -1,0 +1,158 @@
+/* CSS files add styling rules to your content */
+html {
+  width: 1920;
+}
+body {
+  font-family: helvetica, arial, sans-serif; width: 1920;
+  margin: 0; padding: 0; border-box: none;
+  background-color:#000000;
+}
+
+@font-face {
+  font-family:attackg;
+  src: url("https://cdn.glitch.com/27f91ac1-a93f-46ac-ad72-b72611b7c40a%2FaAttackGraffiti.otf?v=1610719796382");
+}
+
+@font-face {
+  font-family:lemilk-l;
+  src:url("https://cdn.glitch.com/27f91ac1-a93f-46ac-ad72-b72611b7c40a%2FLEMONMILK-Light.otf?v=1610724905521");
+}
+
+.fade-in-left {
+	-webkit-animation: fade-in-left 1.0s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+	        animation: fade-in-left 1.0s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+}
+
+@-webkit-keyframes fade-in-left {
+  0% {
+    -webkit-transform: translateX(-50px);
+            transform: translateX(-50px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+    opacity: 1;
+  }
+}
+@keyframes fade-in-left {
+  0% {
+    -webkit-transform: translateX(-50px);
+            transform: translateX(-50px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+h1 {
+  font-style: italic;
+  color: #373fff;
+}
+
+.topnav {
+  background-color: #4287f5;
+}
+
+ul {
+  list-style-type: none;
+  width: 100%;
+  margin: 0;
+}
+
+li {
+  margin: 0;
+  float: left;
+  text-align: center;
+  width: 24%;
+  height: 40px;
+  background: #f53652;
+  padding-top: 1.25%;
+}
+
+a {
+  font-family: attackg;
+  text-decoration:none;
+  color: #000000;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+span {
+  text-decoration: underline;
+  font-weight:800;
+}
+
+a:hover {
+  color: #8a0f22;
+}
+
+.container {
+  clear: both;
+  padding-top: 20px;
+}
+
+.propic {
+  float: left;
+  width: 33%;
+}
+
+.protxt {
+  float: left:
+  width: 65%;
+}
+
+.protxt2 {
+  float: left:
+  width: 65%;
+  position: relative:
+}
+
+.profilepic {
+  width: 580px;
+  display: block;
+}
+
+h2 {
+  font-family: attackg;
+  font-size: 72px;
+  text-align: left;
+  font-weight: 800;
+  color: #f53652;
+  margin-bottom: 0;
+}
+
+h3 {
+  font-family: attackg;
+  color: #f53652;
+  font-size: 30px;
+  
+}
+
+p{
+  font-size: 20px;
+  font-family: lemilk-l;
+  color:#db233f;
+  padding-bottom: 100px;
+}
+
+.p5img {
+  width: 60%;
+  z-index: 0;
+  position: absolute;
+} 
+
+.p5txt {
+ z-index: 1; 
+  position: absolute;
+  top:15%; left:40%;
+}
+
+.gallery
+{
+  width:70%;
+  padding-left: 13%;
+}
